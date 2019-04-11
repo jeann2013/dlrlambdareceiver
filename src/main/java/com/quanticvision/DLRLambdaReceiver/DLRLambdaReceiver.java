@@ -113,7 +113,7 @@ public class DLRLambdaReceiver implements RequestStreamHandler {
 			System.out.println("Results: " + mr);
 		}
 
-		header.put("Provided-By", "Quantic Vision, S.A.");		
+		header.put("Provided-By", "Enterprice");		
 		body.put("Message-Result", mr);
 		body.put("State", "Sent data!");
 		response.put("isBase64Encoded", "false");
